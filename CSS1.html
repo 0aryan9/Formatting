@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Types of selectors</title>
+  <style>
+    /* Universal selector */
+    /* *{
+        padding: 0;
+      } */
+
+    /* Individual selector */
+    h3 {
+      background-color: aqua;
+    }
+
+    span {
+      background-color: beige;
+    }
+
+    /* Class and Id selector */
+    .one {
+      color: rgb(230, 22, 22);
+    }
+
+    #rrr {
+      color: cyan;
+    }
+
+    /* and selector */
+    li.two {
+      background-color: lightpink;
+    }
+
+    /* Combined selector */
+    b,
+    strong {
+      background-color: bisque;
+    }
+
+    /* inside an element selector */
+    div li {
+      background-color: blueviolet;
+    }
+
+    /* Direct child selector */
+    div>li {
+      color: white;
+    }
+
+    /* sibling selector */
+    .sibling+li {
+      color: rgb(168, 6, 6);
+    }
+  </style>
+</head>
+
+<body>
+  <h3>This is CSS selectors</h3>
+  <ul type="square">
+    <li class="one">Test1 </li>
+    <li id="rrr">Test 2</li>
+    <li class="two">Test 3</li>
+    <li class="sibling">Test 4</li>
+    <li>Test 5</li>
+  </ul>
+  <span>Span is only a span, nothing more.</span><br>
+  <b>aryan</b><br>
+  <strong>saini</strong>
+  <ol type="I">
+    <li class="one">This is my first ordered list.</li>
+    <ol type="i">
+      <li>Violet</li>
+    </ol>
+    <ol type="i">
+      <li>Blue</li>
+    </ol>
+    <div>
+      <li>This is my second ordered list.</li>
+      <li>This is my third ordered list.</li>
+    </div>
+  </ol>
+
+
+</body>
+
+</html>
